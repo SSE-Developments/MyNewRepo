@@ -1,0 +1,32 @@
+.projects {
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.projects div {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.projects img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.projects h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.projects p {
+    font-size: 16px;
+    color: #555;
+}
