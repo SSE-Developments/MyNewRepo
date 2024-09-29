@@ -1,13 +1,25 @@
+/* ===================== */
+/* Section: Contact Styles */
+/* ===================== */
+
 .contact {
     padding: 50px 20px;
     background: #ffffff;
 }
+
+/* ===================== */
+/* Section: Contact Heading Styles */
+/* ===================== */
 
 .contact h2 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 30px;
 }
+
+/* ===================== */
+/* Section: Form Styles */
+/* ===================== */
 
 .contact form {
     max-width: 600px;
@@ -16,6 +28,10 @@
     flex-direction: column;
 }
 
+/* ===================== */
+/* Section: Input and Textarea Styles */
+/* ===================== */
+
 .contact input,
 .contact textarea {
     padding: 10px;
@@ -23,6 +39,10 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+/* ===================== */
+/* Section: Button Styles */
+/* ===================== */
 
 .contact button {
     padding: 10px;
@@ -36,3 +56,8 @@
 .contact button:hover {
     background: #0056b3;
 }
+/* File name: Contact.css
+Student Name: Sadik Elahi
+Student ID: 301303846
+Date: 2024-09-28
+*/

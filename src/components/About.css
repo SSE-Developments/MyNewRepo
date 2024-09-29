@@ -1,8 +1,16 @@
+/* ===================== */
+/* Section: About Styles */
+/* ===================== */
+
 .about {
     text-align: center;
     padding: 50px 180px;
     background: #fff;
 }
+
+/* ===================== */
+/* Section: Profile Image Styles */
+/* ===================== */
 
 .about img {
     border-radius: 50%;
@@ -11,15 +19,27 @@
     margin-bottom: 20px;
 }
 
+/* ===================== */
+/* Section: Heading Styles */
+/* ===================== */
+
 .about h2 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
+/* ===================== */
+/* Section: Paragraph Styles */
+/* ===================== */
+
 .about p {
     font-size: 18px;
     margin: 20px 0;
 }
+
+/* ===================== */
+/* Section: Link Styles */
+/* ===================== */
 
 .about a {
     padding: 10px 20px;
@@ -32,3 +52,9 @@
 .about a:hover {
     background: #0056b3;
 }
+
+/* File name: About.css
+Student Name: Sadik Elahi
+Student ID: 301303846
+Date: 2024-09-28
+*/

@@ -1,7 +1,21 @@
 import React from 'react';
 import './Services.css';
+/* File name: Services.js
+Student Name: Sadik Elahi
+Student ID: 301303846
+Date: 2024-09-28
+*/
+
+
+/* ===================== */
+/* Section: Services Component */
+/* ===================== */
 
 const Services = () => {
+    /* ===================== */
+    /* Section: Service Data */
+    /* ===================== */
+
     const services = [
         {
             title: 'Web Development',
@@ -28,6 +42,10 @@ const Services = () => {
             description: 'Building secure and efficient e-commerce platforms to boost online sales and customer engagement.',
         },
     ];
+
+    /* ===================== */
+    /* Section: Render Services */
+    /* ===================== */
 
     return (
         <div className="services">

@@ -1,10 +1,24 @@
 import React from 'react';
 import './Projects.css';
-import project1Image from '../images/Project1.png'; // Adjust the path as needed
-import project2Image from '../images/Project2.png'; // Add the correct import
-import project3Image from '../images/Project3.jpg'; // Add the correct import
+import project1Image from '../images/Project1.png'; 
+import project2Image from '../images/Project2.png'; 
+import project3Image from '../images/Project3.jpg'; 
+/* File name: Projects.js
+Student Name: Sadik Elahi
+Student ID: 301303846
+Date: 2024-09-28
+*/
+
+
+/* ===================== */
+/* Section: Projects Component */
+/* ===================== */
 
 const Projects = () => {
+    /* ===================== */
+    /* Section: Project Data */
+    /* ===================== */
+
     const projects = [
         {
             title: 'Web Development Agency',
@@ -22,6 +36,10 @@ const Projects = () => {
             image: project3Image,
         },
     ];
+
+    /* ===================== */
+    /* Section: Render Projects */
+    /* ===================== */
 
     return (
         <div className="projects">

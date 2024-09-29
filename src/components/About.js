@@ -1,7 +1,13 @@
 import React from 'react';
 import './About.css';
-import myImage from '../images/me.png'; // Replace with your image path
+import myImage from '../images/me.png'; 
+/* File name: About.js
+Student Name: Sadik Elahi
+Student ID: 301303846
+Date: 2024-09-28
+*/
 
+// Section: About Component
 const About = () => {
     return (
         <div className="about">

@@ -1,5 +1,10 @@
 import React from 'react';
 import './Home.css'; 
+/* File name: Home.js
+Student Name: Sadik Elahi
+Student ID: 301303846
+Date: 2024-09-28
+*/
 
 const Home = () => {
     return (

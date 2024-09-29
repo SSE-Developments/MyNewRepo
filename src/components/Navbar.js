@@ -1,7 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import myImage from '../images/logo.png'; // Replace with your image path
+import myImage from '../images/logo.png'; // Image path
+/* File name: Navbar.js
+Student Name: Sadik Elahi
+Student ID: 301303846
+Date: 2024-09-28
+*/
 
 const Navbar = () => {
     return (
