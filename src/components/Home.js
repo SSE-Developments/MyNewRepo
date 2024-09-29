@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'; 
+import { Link } from 'react-router-dom';
 /* File name: Home.js
 Student Name: Sadik Elahi
 Student ID: 301303846
@@ -15,7 +16,9 @@ const Home = () => {
                 <p>Hello! My name is Sadik. Feel free to look around this website to learn more about me!</p>
                 <p>As a dedicated software engineering student, my mission is to leverage my passion for technology and problem-solving to develop innovative and user-centric software solutions. I hope to become the worlds greatest Software Engineer.</p>
 
-                <a href="#services" className="button">Learn More?</a>
+
+                <Link to="/about" className="button">Learn More About Me</Link>
+
             </div>
 
             {/* Services Section */}
@@ -42,7 +45,7 @@ const Home = () => {
             <div className="section" id="contact">
                 <h2>Contact Me?</h2>
                 <p>Click below to get in touch</p>
-                <a href="/contact" className="button">Contact Us</a>
+                <Link to="/contact" className="button">Contact Me</Link>
                 
             </div>
         </div>
