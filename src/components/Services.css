@@ -1,21 +1,53 @@
 .services {
     padding: 50px 20px;
-    background: #fff;
+    background: #ffffff; /* Light background for contrast */
 }
 
 .services h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 36px; /* Increased font size for prominence */
     margin-bottom: 30px;
+    color: #333; /* Darker color for better visibility */
 }
 
-.services ul {
-    list-style: none;
-    padding: 0;
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns */
+    gap: 20px; /* Space between grid items */
+}
+
+.service-card {
+    background: #fff; /* White background for service cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
     text-align: center;
+    transition: transform 0.3s; /* Smooth hover effect */
 }
 
-.services li {
-    font-size: 18px;
-    margin: 10px 0;
+.service-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.service-card h3 {
+    font-size: 24px; /* Service title size */
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px; /* Description size */
+    color: #555; /* Softer text color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .service-grid {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+    }
 }

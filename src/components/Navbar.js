@@ -1,19 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import myImage from '../images/logo.png'; // Replace with your image path
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-                <h1>MyLogo</h1> {/* Custom Logo */}
+                <img src={myImage} alt="Logo" />
             </div>
             <ul className="navbar-links">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About Me</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/services">Services</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</Link></li>
+                <li><Link to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</Link></li>
+                <li><Link to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>Projects</Link></li>
+                <li><Link to="/services" className={({ isActive }) => (isActive ? 'active' : '')}>Services</Link></li>
+                <li><Link to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</Link></li>
             </ul>
         </nav>
     );

@@ -1,33 +1,61 @@
 .navbar {
-    background: #333;
-    color: #fff;
+    background: linear-gradient(90deg, #ffffff, #000000, #ffffff); /* Gradient background */
+    color: #ffffff; /* White text */
     padding: 15px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center items */
     align-items: center;
+    position: relative;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+.logo img {
+    width: 150px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: auto; /* Push the logo to the left */
 }
 
 .navbar-links {
     list-style: none;
     display: flex;
     margin: 0;
+    align-items: center;
 }
 
 .navbar-links li {
-    margin-left: 20px;
+    margin: 0 30px; /* Spacing between menu items */
 }
 
 .navbar-links a {
-    color: #fff;
+    color: #ffffff; /* White text */
     text-decoration: none;
     font-weight: 500;
+    transition: color 0.3s ease; /* Smooth transition */
+    font-size: 18px; /* Font size for links */
 }
 
 .navbar-links a:hover {
-    text-decoration: underline;
+    color: #ffd700; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Active Link Styling */
+.navbar-links a.active {
+    font-weight: bold;
+    color: #ffd700; /* Highlight active link */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .navbar-links {
+        flex-direction: column; /* Stack links */
+        margin-top: 10px; /* Space between logo and links */
+    }
+
+    .navbar-links li {
+        margin: 10px 0; /* Space between menu items */
+    }
 }

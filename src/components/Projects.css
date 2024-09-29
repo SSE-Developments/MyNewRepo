@@ -5,28 +5,49 @@
 
 .projects h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 36px; /* Increased font size */
     margin-bottom: 30px;
+    color: #333; /* Darker color for better contrast */
 }
 
-.projects div {
-    margin: 20px 0;
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Space between project cards */
+}
+
+.project-card {
+    background: white; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Clip the image at corners */
+    width: 300px; /* Fixed width for uniformity */
     text-align: center;
+    transition: transform 0.3s; /* Smooth hover effect */
 }
 
-.projects img {
+.project-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.project-image {
     width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    height: 10em; /* Maintain aspect ratio */
+    image-rendering: auto;
+    
 }
 
 .projects h3 {
     font-size: 24px;
     margin: 10px 0;
+    color: #555; /* Slightly lighter color */
 }
 
 .projects p {
     font-size: 16px;
-    color: #555;
+    color: #777; /* Softer text color for description */
+    padding: 0 25px; /* Padding for text */
+    text-align: left;
+    ;
 }
