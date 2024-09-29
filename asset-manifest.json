@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/MyNewRepo/static/css/main.9e9830a4.css",
-    "main.js": "/MyNewRepo/static/js/main.00dd7456.js",
-    "static/js/453.ca3a84db.chunk.js": "/MyNewRepo/static/js/453.ca3a84db.chunk.js",
-    "static/media/me.png": "/MyNewRepo/static/media/me.827e29e90302ad937f01.png",
-    "static/media/Project1.png": "/MyNewRepo/static/media/Project1.fda814c5f69f75f55a5f.png",
-    "static/media/Project2.png": "/MyNewRepo/static/media/Project2.75166903db5d16348372.png",
-    "static/media/Project3.jpg": "/MyNewRepo/static/media/Project3.3442df81b88f37f665c5.jpg",
-    "static/media/intro-bg.jpg": "/MyNewRepo/static/media/intro-bg.3b91ccd8e008ef1f8c40.jpg",
-    "static/media/logo.png": "/MyNewRepo/static/media/logo.7d82c2c05c5ac774c4cd.png",
-    "index.html": "/MyNewRepo/index.html",
-    "main.9e9830a4.css.map": "/MyNewRepo/static/css/main.9e9830a4.css.map",
-    "main.00dd7456.js.map": "/MyNewRepo/static/js/main.00dd7456.js.map",
-    "453.ca3a84db.chunk.js.map": "/MyNewRepo/static/js/453.ca3a84db.chunk.js.map"
+    "main.css": "/SSE-Developments/MyNewRepo.git/static/css/main.ef013334.css",
+    "main.js": "/SSE-Developments/MyNewRepo.git/static/js/main.c4da34bd.js",
+    "static/js/453.ca3a84db.chunk.js": "/SSE-Developments/MyNewRepo.git/static/js/453.ca3a84db.chunk.js",
+    "static/media/me.png": "/SSE-Developments/MyNewRepo.git/static/media/me.827e29e90302ad937f01.png",
+    "static/media/Project1.png": "/SSE-Developments/MyNewRepo.git/static/media/Project1.fda814c5f69f75f55a5f.png",
+    "static/media/Project2.png": "/SSE-Developments/MyNewRepo.git/static/media/Project2.75166903db5d16348372.png",
+    "static/media/Project3.jpg": "/SSE-Developments/MyNewRepo.git/static/media/Project3.3442df81b88f37f665c5.jpg",
+    "static/media/intro-bg.jpg": "/SSE-Developments/MyNewRepo.git/static/media/intro-bg.3b91ccd8e008ef1f8c40.jpg",
+    "static/media/logo.png": "/SSE-Developments/MyNewRepo.git/static/media/logo.7d82c2c05c5ac774c4cd.png",
+    "index.html": "/SSE-Developments/MyNewRepo.git/index.html",
+    "main.ef013334.css.map": "/SSE-Developments/MyNewRepo.git/static/css/main.ef013334.css.map",
+    "main.c4da34bd.js.map": "/SSE-Developments/MyNewRepo.git/static/js/main.c4da34bd.js.map",
+    "453.ca3a84db.chunk.js.map": "/SSE-Developments/MyNewRepo.git/static/js/453.ca3a84db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e9830a4.css",
-    "static/js/main.00dd7456.js"
+    "static/css/main.ef013334.css",
+    "static/js/main.c4da34bd.js"
   ]
 }
