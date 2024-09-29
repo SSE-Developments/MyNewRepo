@@ -38,6 +38,11 @@
     font-size: 16px; /* Description size */
     color: #555; /* Softer text color */
 }
+.service-card img {
+    width: 50px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space between image and title */
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
